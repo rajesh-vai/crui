@@ -5209,7 +5209,7 @@
 , function(e, t, n) {
     "use strict";
     function r(e) {
-        for (var t = arguments.length - 1, n = "Minified React error #" + e + "; visit http://facebook.github.io/react/docs/error-decoder.html?invariant=" + e, r = 0; r < t; r++)
+        for (var t = arguments.length - 1, n = "Minified React error #" + e + "; visit //facebook.github.io/react/docs/error-decoder.html?invariant=" + e, r = 0; r < t; r++)
             n += "&args[]=" + encodeURIComponent(arguments[r + 1]);
         throw t = Error(n + " for the full message or use the non-minified dev environment for full errors and additional helpful warnings."),
         t.name = "Invariant Violation",
@@ -5547,7 +5547,7 @@
 , function(e, t, n) {
     "use strict";
     function r(e) {
-        for (var t = arguments.length - 1, n = "Minified React error #" + e + "; visit http://facebook.github.io/react/docs/error-decoder.html?invariant=" + e, r = 0; r < t; r++)
+        for (var t = arguments.length - 1, n = "Minified React error #" + e + "; visit //facebook.github.io/react/docs/error-decoder.html?invariant=" + e, r = 0; r < t; r++)
             n += "&args[]=" + encodeURIComponent(arguments[r + 1]);
         throw t = Error(n + " for the full message or use the non-minified dev environment for full errors and additional helpful warnings."),
         t.name = "Invariant Violation",
@@ -5557,11 +5557,11 @@
     function o(e) {
         switch (e) {
         case "svg":
-            return "http://www.w3.org/2000/svg";
+            return "//www.w3.org/2000/svg";
         case "math":
-            return "http://www.w3.org/1998/Math/MathML";
+            return "//www.w3.org/1998/Math/MathML";
         default:
-            return "http://www.w3.org/1999/xhtml"
+            return "//www.w3.org/1999/xhtml"
         }
     }
     function i() {
@@ -8249,13 +8249,13 @@
     mt || r("227");
     var St, Tt, _t = {
         Namespaces: {
-            html: "http://www.w3.org/1999/xhtml",
-            mathml: "http://www.w3.org/1998/Math/MathML",
-            svg: "http://www.w3.org/2000/svg"
+            html: "//www.w3.org/1999/xhtml",
+            mathml: "//www.w3.org/1998/Math/MathML",
+            svg: "//www.w3.org/2000/svg"
         },
         getIntrinsicNamespace: o,
         getChildNamespace: function(e, t) {
-            return null == e || "http://www.w3.org/1999/xhtml" === e ? o(t) : "http://www.w3.org/2000/svg" === e && "foreignObject" === t ? "http://www.w3.org/1999/xhtml" : e
+            return null == e || "//www.w3.org/1999/xhtml" === e ? o(t) : "//www.w3.org/2000/svg" === e && "foreignObject" === t ? "//www.w3.org/1999/xhtml" : e
         }
     }, Pt = null, Ot = {}, Nt = {
         plugins: [],
@@ -10994,8 +10994,8 @@
     }
       , uu = Ft.injection.HAS_STRING_BOOLEAN_VALUE
       , lu = {
-        xlink: "http://www.w3.org/1999/xlink",
-        xml: "http://www.w3.org/XML/1998/namespace"
+        xlink: "//www.w3.org/1999/xlink",
+        xml: "//www.w3.org/XML/1998/namespace"
     }
       , cu = {
         Properties: {
@@ -11491,7 +11491,7 @@
             t
         }
     }()
-      , v = "http://52.163.118.40/cars/automate/"
+      , v = "//52.163.118.40/cars/automate/"
       , b = function(e) {
         function t(e) {
             o(this, t);
@@ -12848,7 +12848,7 @@
       , i = n(44);
     e.exports = function() {
         function e(e, t, n, r, a, s) {
-            s !== i && o(!1, "Calling PropTypes validators directly is not supported by the `prop-types` package. Use PropTypes.checkPropTypes() to call them. Read more at http://fb.me/use-check-prop-types")
+            s !== i && o(!1, "Calling PropTypes validators directly is not supported by the `prop-types` package. Use PropTypes.checkPropTypes() to call them. Read more at //fb.me/use-check-prop-types")
         }
         function t() {
             return e
@@ -14659,7 +14659,7 @@
                     id: "voiceErrorMsg"
                 }, "Speak Now..."), s.a.createElement("svg", {
                     className: "mic shadow",
-                    xmlns: "http://www.w3.org/2000/svg",
+                    xmlns: "//www.w3.org/2000/svg",
                     width: "210mm",
                     height: "297mm",
                     viewBox: "0 0 744.09448819 1052.3622047"
@@ -14698,7 +14698,7 @@
                     d: "M306.57 604.076h77.144v14.286H306.57z"
                 })), s.a.createElement("svg", {
                     className: "grey-circle",
-                    xmlns: "http://www.w3.org/2000/svg",
+                    xmlns: "//www.w3.org/2000/svg",
                     width: "210mm",
                     height: "297mm",
                     viewBox: "0 0 744.09448819 1052.3622047"
@@ -14714,7 +14714,7 @@
                     opacity: ".305"
                 })), s.a.createElement("svg", {
                     className: "green-circle",
-                    xmlns: "http://www.w3.org/2000/svg",
+                    xmlns: "//www.w3.org/2000/svg",
                     width: "210mm",
                     height: "297mm",
                     viewBox: "0 0 744.09448819 1052.3622047"
