@@ -1,0 +1,12 @@
+.sns-pimg img {
+    width: auto !important;
+    height: 100% !important;
+}
+
+.product-image-wrapper h3, .product-image-wrapper h4{
+	 text-transform: capitalize !important;
+}
+
+#facet-container{
+	display: none;
+}
